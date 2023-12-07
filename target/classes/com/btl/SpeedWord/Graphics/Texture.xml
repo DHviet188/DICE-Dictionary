@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Textures>
+    <texture source="MenuBackground.png" id="menu"/>
+    <texture source="PlayBackground.png" id="play"/>
+    <texture source="GameOverPanel.png" id="over"/>
+    <texture source="OptionPanel.png" id="option"/>
+    <texture source="ScorePanel.png" id="score"/>
+
+    <texture source="OptionButton_Normal.png" id="option_n"/>
+    <texture source="OptionButton_Hover.png" id="option_h"/>
+    <texture source="OptionButton_Press.png" id="option_p"/>
+    <texture source="PlayButton_Normal.png" id="play_n"/>
+    <texture source="PlayButton_Hover.png" id="play_h"/>
+    <texture source="PlayButton_Press.png" id="play_p"/>
+    <texture source="ScoreButton_Normal.png" id="score_n"/>
+    <texture source="ScoreButton_Hover.png" id="score_h"/>
+    <texture source="ScoreButton_Press.png" id="score_p"/>
+    <texture source="ExitButton_Normal.png" id="exit_n"/>
+    <texture source="ExitButton_Hover.png" id="exit_h"/>
+    <texture source="ExitButton_Press.png" id="exit_p"/>
+    <texture source="HomeButton_Normal.png" id="home_n"/>
+    <texture source="HomeButton_Hover.png" id="home_h"/>
+    <texture source="HomeButton_Press.png" id="home_p"/>
+    <texture source="RestartButton_Normal.png" id="restart_n"/>
+    <texture source="RestartButton_Hover.png" id="restart_h"/>
+    <texture source="RestartButton_Press.png" id="restart_p"/>
+    <texture source="XButton_Normal.png" id="x_n"/>
+    <texture source="XButton_Hover.png" id="x_h"/>
+    <texture source="XButton_Press.png" id="x_p"/>
+
+    <texture source="Heart_3.png" id="heart_3"/>
+    <texture source="Heart_2.png" id="heart_2"/>
+    <texture source="Heart_1.png" id="heart_1"/>
+    <texture source="Heart_0.png" id="heart_0"/>
+</Textures>

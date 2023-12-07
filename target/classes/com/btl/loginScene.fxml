@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.btl.loginController">
+   <children>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <AnchorPane prefHeight="403.0" prefWidth="300.0" styleClass="left" stylesheets="@loginDesign.css">
+               <children>
+                  <FontAwesomeIconView fill="WHITE" glyphName="CUBE" layoutX="82.0" layoutY="148.0" size="8em" />
+                  <Label layoutX="121.0" layoutY="187.0" text="DICE" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="24.0" />
+                     </font>
+                  </Label>
+                  <FontAwesomeIconView fill="WHITE" glyphName="BOOK" layoutX="151.0" layoutY="165.0" selectionStart="0" size="6EM" />
+                  <Label layoutX="87.0" layoutY="224.0" text="Dictionary of English" textFill="WHITE">
+                     <font>
+                        <Font name="Tahoma" size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="loginRight_form" layoutX="300.0" layoutY="2.0" prefHeight="400.0" prefWidth="300.0" visible="false">
+               <children>
+                  <Label layoutX="34.0" layoutY="75.0" text="Welcome! Let's get started!" textFill="#256b51">
+                     <font>
+                        <Font name="Tahoma Bold" size="17.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="username" layoutX="40.0" layoutY="152.0" onAction="#loginController" prefHeight="30.0" prefWidth="220.0" promptText="Username" />
+                  <PasswordField fx:id="password" layoutX="40.0" layoutY="190.0" onAction="#loginController" prefHeight="30.0" prefWidth="220.0" promptText="Password" />
+                  <Button fx:id="loginBtn" layoutX="40.0" layoutY="265.0" mnemonicParsing="false" onAction="#loginController" prefHeight="30.0" prefWidth="220.0" styleClass="btn" stylesheets="@loginDesign.css" text="Login" textFill="WHITE" />
+                  <Button fx:id="forgotPassBtn" layoutX="40.0" layoutY="303.0" mnemonicParsing="false" onAction="#forgotPasswordAccount" prefHeight="30.0" prefWidth="220.0" styleClass="btn" stylesheets="@loginDesign.css" text="Forgot password" textFill="WHITE" />
+                  <Button fx:id="createAccountBtn" layoutX="40.0" layoutY="341.0" mnemonicParsing="false" onAction="#loginCreateAccount" prefHeight="30.0" prefWidth="220.0" styleClass="btn" stylesheets="@loginDesign.css" text="Create new account" textFill="WHITE" />
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="create_form" layoutX="300.0" layoutY="3.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="300.0">
+               <children>
+                  <TextField fx:id="create_username" layoutX="14.0" layoutY="94.0" prefHeight="26.0" prefWidth="275.0" promptText="username" />
+                  <PasswordField fx:id="create_password" layoutX="16.0" layoutY="149.0" prefHeight="26.0" prefWidth="275.0" promptText="password" />
+                  <PasswordField fx:id="confirm_password" layoutX="16.0" layoutY="209.0" prefHeight="26.0" prefWidth="275.0" promptText="confirm password" />
+                  <Label layoutX="16.0" layoutY="77.0" prefHeight="17.0" prefWidth="58.0" text="Username" />
+                  <Label layoutX="16.0" layoutY="132.0" text="Password" />
+                  <TextField fx:id="create_email" layoutX="16.0" layoutY="271.0" prefHeight="26.0" prefWidth="275.0" promptText="email@gmail.com" />
+                  <Label layoutX="16.0" layoutY="253.0" text="Email" />
+                  <Label layoutX="16.0" layoutY="191.0" text="Confirm password" />
+                  <Button fx:id="createButton" layoutX="46.0" layoutY="321.0" mnemonicParsing="false" onAction="#creatButtonAction" prefHeight="25.0" prefWidth="211.0" styleClass="btn" stylesheets="@loginDesign.css" text="Create" textFill="WHITE">
+                     <font>
+                        <Font name="Tahoma" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="closeButton" layoutX="46.0" layoutY="353.0" mnemonicParsing="false" onAction="#createClose" prefHeight="25.0" prefWidth="211.0" styleClass="btn" stylesheets="@loginDesign.css" text="Close" textFill="WHITE">
+                     <font>
+                        <Font name="Tahoma" size="12.0" />
+                     </font>
+                  </Button>
+                  <Label fx:id="confirmPasswordLabel" layoutX="16.0" layoutY="233.0" text="Password does not match!" textFill="#ff5454" />
+                  <Label layoutX="36.0" layoutY="30.0" prefHeight="46.0" prefWidth="229.0" text="Fill in your information in all the blanks below" textAlignment="CENTER" textOverrun="CENTER_WORD_ELLIPSIS" wrapText="true">
+                     <font>
+                        <Font name="Tahoma Bold" size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="verifyCreateAccount_form" layoutX="300.0" layoutY="3.0" prefHeight="400.0" prefWidth="300.0" visible="false">
+               <children>
+                  <Label layoutX="71.0" layoutY="47.0" text="Verify your email!">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="8.0" layoutY="81.0" prefHeight="46.0" prefWidth="278.0" text="Please enter the code that was sent to your email to verify your account" textOverrun="CENTER_ELLIPSIS" wrapText="true">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="37.0" layoutY="193.0" prefHeight="24.0" prefWidth="41.0" text="Code">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="verifyCreateCode_text" layoutX="37.0" layoutY="216.0" prefHeight="30.0" prefWidth="220.0" promptText="Verify Code: xxxxxx" />
+                  <Button fx:id="verifyCreateCode_Btn" layoutX="54.0" layoutY="300.0" mnemonicParsing="false" onAction="#addUserToDB" prefHeight="26.0" prefWidth="58.0" styleClass="btn" stylesheets="@loginDesign.css" text="Verify" textFill="WHITE" />
+                  <Button fx:id="backToCreateAccount" layoutX="181.0" layoutY="300.0" mnemonicParsing="false" onAction="#closeVerifyCreate_form" prefHeight="26.0" prefWidth="58.0" styleClass="btn" stylesheets="@loginDesign.css" text="Back" textFill="WHITE" />
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="forgotPassword_form" layoutX="300.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="403.0" prefWidth="300.0" visible="false">
+               <children>
+                  <TextField fx:id="emailForgot_text" layoutX="30.0" layoutY="208.0" prefHeight="26.0" prefWidth="239.0" />
+                  <Label layoutX="11.0" layoutY="39.0" text="Forgot your password?">
+                     <font>
+                        <Font name="Tahoma Bold" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="11.0" layoutY="83.0" prefHeight="54.0" prefWidth="262.0" text="Please enter your email to search for your account." wrapText="true">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="30.0" layoutY="191.0" text="Email" />
+                  <Button fx:id="forgotPassword_confirm" layoutX="45.0" layoutY="296.0" mnemonicParsing="false" onAction="#forgotPassword_Btn" prefHeight="25.0" prefWidth="68.0" styleClass="btn" stylesheets="@loginDesign.css" text="Confirm" textFill="WHITE" />
+                  <Button fx:id="forgotPassword_close" layoutX="174.0" layoutY="296.0" mnemonicParsing="false" onAction="#forgotPasswordClose" prefHeight="25.0" prefWidth="68.0" styleClass="btn" stylesheets="@loginDesign.css" text="Back" textFill="WHITE" />
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="verifyCode_form" layoutX="300.0" layoutY="1.0" prefHeight="403.0" prefWidth="300.0" visible="false" AnchorPane.bottomAnchor="-1.0" AnchorPane.leftAnchor="300.0" AnchorPane.rightAnchor="0.7999999999999545" AnchorPane.topAnchor="1.0">
+               <children>
+                  <Label layoutX="7.0" layoutY="41.0" text="Verify Code was sent to your E-mail!">
+                     <font>
+                        <Font name="System Bold" size="17.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="10.0" layoutY="77.0" prefHeight="46.0" prefWidth="278.0" text="Please enter the code that was sent to your email to verify your account" textOverrun="CENTER_ELLIPSIS" wrapText="true">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="39.0" layoutY="189.0" prefHeight="24.0" prefWidth="41.0" text="Code">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="verifyCode_text" layoutX="39.0" layoutY="212.0" prefHeight="30.0" prefWidth="220.0" promptText="Verify Code: xxxxxx" />
+                  <Button fx:id="verifyCode_Btn" layoutX="56.0" layoutY="296.0" mnemonicParsing="false" onAction="#verifyCode_Btn_Action" prefHeight="26.0" prefWidth="58.0" styleClass="btn" stylesheets="@loginDesign.css" text="Verify" textFill="WHITE" />
+                  <Button fx:id="backToForgotPw" layoutX="183.0" layoutY="296.0" mnemonicParsing="false" onAction="#backtoForgotPw_form" prefHeight="26.0" prefWidth="58.0" styleClass="btn" stylesheets="@loginDesign.css" text="Back" textFill="WHITE" />
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="resetPassword_form" layoutX="300.0" layoutY="3.0" prefHeight="400.0" prefWidth="300.0" visible="false">
+               <children>
+                  <Label layoutX="31.0" layoutY="43.0" prefHeight="36.0" prefWidth="239.0" text="Reset your password">
+                     <font>
+                        <Font name="System Bold" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="65.0" layoutY="101.0" text="Enter your new password">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <PasswordField fx:id="newPassword_text" layoutX="31.0" layoutY="175.0" prefHeight="25.0" prefWidth="235.0" promptText="Your new password" />
+                  <PasswordField fx:id="confirmNewPassword_text" layoutX="31.0" layoutY="236.0" prefHeight="25.0" prefWidth="235.0" promptText="Confirm your new password" />
+                  <Label layoutX="31.0" layoutY="158.0" text="New password" />
+                  <Label layoutX="31.0" layoutY="219.0" text="Confirm new password" />
+                  <Button fx:id="resetPassword_Btn" layoutX="66.0" layoutY="317.0" mnemonicParsing="false" onAction="#resetPasswordBtn_Action" prefHeight="25.0" prefWidth="167.0" styleClass="btn" stylesheets="@loginDesign.css" text="Reset" textFill="WHITE" />
+               </children>
+            </AnchorPane>
+            <Button fx:id="close" mnemonicParsing="false" onAction="#close" prefHeight="24.0" prefWidth="50.0" styleClass="exit" stylesheets="@loginDesign.css" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+               <graphic>
+                  <FontAwesomeIconView glyphName="CLOSE" size="1.2em" />
+               </graphic>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

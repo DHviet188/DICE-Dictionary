@@ -1,0 +1,15 @@
+.progress-bar {
+    -fx-accent: #ff0000; /* Màu sắc của thanh timer */
+    -fx-background-color: transparent; /* Nền trong suốt */
+    -fx-background-insets: 0; /* Xoá đường viền */
+    -fx-padding: 0; /* Xoá khoảng trắng xung quanh */
+    -fx-border-color: transparent; /* Xoá đường viền */
+}
+
+.progress-bar .bar {
+    -fx-background-color: #ff0000; /* Màu sắc của thanh timer */
+    -fx-background-insets: 0; /* Xoá đường viền */
+    -fx-padding: 0; /* Xoá khoảng trắng xung quanh */
+    -fx-border-color: transparent; /* Xoá đường viền */
+    -fx-border-insets: 0; /* Xoá đường viền */
+}

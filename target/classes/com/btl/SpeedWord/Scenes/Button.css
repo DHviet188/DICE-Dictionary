@@ -1,0 +1,122 @@
+.button {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-border-color: white;
+    -fx-font-size: 20;
+    -fx-border-width: 3;
+}
+
+.button:hover {
+    -fx-background-color: rgba(138, 148, 178, 0.27);
+    -fx-text-fill: white;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-border-color: white;
+    -fx-font-size: 20;
+    -fx-border-width: 3;
+}
+
+.button-click {
+    -fx-background-color: rgba(211, 211, 211, 0.45);
+    -fx-text-fill: white;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-border-color: white;
+    -fx-font-size: 20;
+    -fx-border-width: 3;
+}
+
+.button-click:hover {
+    -fx-background-color: rgba(211, 211, 211, 0.45);
+    -fx-text-fill: white;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-border-color: white;
+    -fx-font-size: 20;
+    -fx-border-width: 3;
+}
+
+.button-true {
+    -fx-background-color: transparent;
+    -fx-text-fill: green;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-border-color: green;
+    -fx-font-size: 20;
+    -fx-border-width: 3;
+}
+
+.button-true:hover {
+    -fx-background-color: transparent;
+    -fx-text-fill: green;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-border-color: green;
+    -fx-font-size: 20;
+    -fx-border-width: 3;
+}
+
+.button-true:disabled {
+    -fx-background-color: transparent;
+    -fx-text-fill: lightgreen;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-border-color: lightgreen;
+    -fx-font-size: 20;
+    -fx-border-width: 3;
+}
+
+.button-false {
+    -fx-background-color: transparent;
+    -fx-text-fill: red;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-border-color: red;
+    -fx-font-size: 20;
+    -fx-border-width: 3;
+}
+
+.button-false:hover {
+    -fx-background-color: transparent;
+    -fx-text-fill: red;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-border-color: red;
+    -fx-font-size: 20;
+    -fx-border-width: 3;
+}
+
+.button-false:disabled {
+    -fx-background-color: transparent;
+    -fx-text-fill: red;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-border-color: red;
+    -fx-font-size: 20;
+    -fx-border-width: 3;
+}
+
+.button-disabled:disabled {
+    -fx-background-color: transparent;
+    -fx-text-fill: grey;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-border-color: grey;
+    -fx-font-size: 20;
+    -fx-border-width: 3;
+}
+
+.transparent-button {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-padding: 0.416667em 0.833em 0.416667em 0.833em; /* Padding này chỉ để hiển thị hình ảnh */
+    -fx-background-insets: 0;
+    -fx-background-radius: 0;
+}
+
+.transparent-button:hover {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}

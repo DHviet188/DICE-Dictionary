@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vocabulary>
+    <word>
+        <english>Apple</english>
+        <vietnamese>Quả táo</vietnamese>
+    </word>
+    <word>
+        <english>Book</english>
+        <vietnamese>Sách</vietnamese>
+    </word>
+    <word>
+        <english>Computer</english>
+        <vietnamese>Máy tính</vietnamese>
+    </word>
+    <word>
+        <english>Camera</english>
+        <vietnamese>Máy ảnh</vietnamese>
+    </word>
+    <word>
+        <english>Abroad</english>
+        <vietnamese>Ở nước ngoài</vietnamese>
+    </word>
+    <word>
+        <english>Balance</english>
+        <vietnamese>Cân đối</vietnamese>
+    </word>
+    <word>
+        <english>Career</english>
+        <vietnamese>Sự nghiệp</vietnamese>
+    </word>
+    <word>
+        <english>Develop</english>
+        <vietnamese>Phát triển</vietnamese>
+    </word>
+    <word>
+        <english>Efficient</english>
+        <vietnamese>Hiệu quả</vietnamese>
+    </word>
+    <word>
+        <english>Flexible</english>
+        <vietnamese>Linh hoạt</vietnamese>
+    </word>
+    <word>
+        <english>Global</english>
+        <vietnamese>Toàn cầu</vietnamese>
+    </word>
+    <word>
+        <english>Healthcare</english>
+        <vietnamese>Chăm sóc sức khỏe</vietnamese>
+    </word>
+    <word>
+        <english>Income</english>
+        <vietnamese>Thu nhập</vietnamese>
+    </word>
+    <word>
+        <english>Journey</english>
+        <vietnamese>Hành trình</vietnamese>
+    </word>
+    <word>
+        <english>Knowledge</english>
+        <vietnamese>Kiến thức</vietnamese>
+    </word>
+    <word>
+        <english>Leisure</english>
+        <vietnamese>Thời gian rảnh rỗi</vietnamese>
+    </word>
+    <word>
+        <english>Mistake</english>
+        <vietnamese>Sai lầm</vietnamese>
+    </word>
+    <word>
+        <english>Negotiate</english>
+        <vietnamese>Đàm phán</vietnamese>
+    </word>
+    <word>
+        <english>Opportunity</english>
+        <vietnamese>Cơ hội</vietnamese>
+    </word>
+    <word>
+        <english>Progress</english>
+        <vietnamese>Tiến bộ</vietnamese>
+    </word>
+    <word>
+        <english>Quality</english>
+        <vietnamese>Chất lượng</vietnamese>
+    </word>
+    <word>
+        <english>Responsible</english>
+        <vietnamese>Trách nhiệm</vietnamese>
+    </word>
+    <word>
+        <english>Support</english>
+        <vietnamese>Hỗ trợ</vietnamese>
+    </word>
+    <word>
+        <english>Technology</english>
+        <vietnamese>Công nghệ</vietnamese>
+    </word>
+    <word>
+        <english>Advantage</english>
+        <vietnamese>Lợi ích</vietnamese>
+    </word>
+    <word>
+        <english>Behavior</english>
+        <vietnamese>Hành vi</vietnamese>
+    </word>
+    <word>
+        <english>Challenge</english>
+        <vietnamese>Thách thức</vietnamese>
+    </word>
+    <word>
+        <english>Decision</english>
+        <vietnamese>Quyết định</vietnamese>
+    </word>
+    <word>
+        <english>Environment</english>
+        <vietnamese>Môi trường</vietnamese>
+    </word>
+    <word>
+        <english>Facility</english>
+        <vietnamese>Cơ sở vật chất</vietnamese>
+    </word>
+    <word>
+        <english>Generous</english>
+        <vietnamese>Hào phóng</vietnamese>
+    </word>
+    <word>
+        <english>Habit</english>
+        <vietnamese>Thói quen</vietnamese>
+    </word>
+    <word>
+        <english>Individual</english>
+        <vietnamese>Cá nhân</vietnamese>
+    </word>
+    <word>
+        <english>Join</english>
+        <vietnamese>Tham gia</vietnamese>
+    </word>
+    <word>
+        <english>Kindness</english>
+        <vietnamese>Lòng tốt</vietnamese>
+    </word>
+    <word>
+        <english>Language</english>
+        <vietnamese>Ngôn ngữ</vietnamese>
+    </word>
+    <word>
+        <english>Memory</english>
+        <vietnamese>Ký ức</vietnamese>
+    </word>
+    <word>
+        <english>Notice</english>
+        <vietnamese>Chú ý</vietnamese>
+    </word>
+    <word>
+        <english>Organize</english>
+        <vietnamese>Tổ chức</vietnamese>
+    </word>
+    <word>
+        <english>Practice</english>
+        <vietnamese>Thực hành</vietnamese>
+    </word>
+    <word>
+        <english>Quality</english>
+        <vietnamese>Chất lượng</vietnamese>
+    </word>
+    <word>
+        <english>Respect</english>
+        <vietnamese>Tôn trọng</vietnamese>
+    </word>
+    <word>
+        <english>Skill</english>
+        <vietnamese>Kỹ năng</vietnamese>
+    </word>
+    <word>
+        <english>Travel</english>
+        <vietnamese>Du lịch</vietnamese>
+    </word>
+    <word>
+        <english>Understand</english>
+        <vietnamese>Hiểu</vietnamese>
+    </word>
+    <word>
+        <english>Value</english>
+        <vietnamese>Giá trị</vietnamese>
+    </word>
+    <word>
+        <english>Willing</english>
+        <vietnamese>Sẵn lòng</vietnamese>
+    </word>
+    <word>
+        <english>Youth</english>
+        <vietnamese>Thanh thiếu niên</vietnamese>
+    </word>
+    <word>
+        <english>Zone</english>
+        <vietnamese>Khu vực</vietnamese>
+    </word>
+    <word>
+        <english>Accept</english>
+        <vietnamese>Chấp nhận</vietnamese>
+    </word>
+    <word>
+        <english>Background</english>
+        <vietnamese>Nền tảng</vietnamese>
+    </word>
+    <word>
+        <english>Comfortable</english>
+        <vietnamese>Thoải mái</vietnamese>
+    </word>
+    <word>
+        <english>Diverse</english>
+        <vietnamese>Đa dạng</vietnamese>
+    </word>
+    <word>
+        <english>Effective</english>
+        <vietnamese>Hiệu quả</vietnamese>
+    </word>
+    <word>
+        <english>Advice</english>
+        <vietnamese>Lời khuyên</vietnamese>
+    </word>
+    <word>
+        <english>Believe</english>
+        <vietnamese>Tin tưởng</vietnamese>
+    </word>
+    <word>
+        <english>Culture</english>
+        <vietnamese>Văn hóa</vietnamese>
+    </word>
+    <word>
+        <english>Determination</english>
+        <vietnamese>Sự quyết đoán</vietnamese>
+    </word>
+    <word>
+        <english>Effort</english>
+        <vietnamese>Nỗ lực</vietnamese>
+    </word>
+    <word>
+        <english>Familiar</english>
+        <vietnamese>Quen thuộc</vietnamese>
+    </word>
+    <word>
+        <english>Goal</english>
+        <vietnamese>Mục tiêu</vietnamese>
+    </word>
+    <word>
+        <english>Happiness</english>
+        <vietnamese>Hạnh phúc</vietnamese>
+    </word>
+    <word>
+        <english>Interest</english>
+        <vietnamese>Sở thích</vietnamese>
+    </word>
+    <word>
+        <english>Job</english>
+        <vietnamese>Công việc</vietnamese>
+    </word>
+    <word>
+        <english>Lifestyle</english>
+        <vietnamese>Lối sống</vietnamese>
+    </word>
+    <word>
+        <english>Motivation</english>
+        <vietnamese>Động lực</vietnamese>
+    </word>
+    <word>
+        <english>Nature</english>
+        <vietnamese>Thiên nhiên</vietnamese>
+    </word>
+    <word>
+        <english>Option</english>
+        <vietnamese>Lựa chọn</vietnamese>
+    </word>
+    <word>
+        <english>Positive</english>
+        <vietnamese>Tích cực</vietnamese>
+    </word>
+    <word>
+        <english>Negative</english>
+        <vietnamese>Tiêu cực</vietnamese>
+    </word>
+    <word>
+        <english>Question</english>
+        <vietnamese>Câu hỏi</vietnamese>
+    </word>
+    <word>
+        <english>Resource</english>
+        <vietnamese>Tài nguyên</vietnamese>
+    </word>
+    <word>
+        <english>Solution</english>
+        <vietnamese>Giải pháp</vietnamese>
+    </word>
+    <word>
+        <english>Talent</english>
+        <vietnamese>Tài năng</vietnamese>
+    </word>
+
+</vocabulary>
