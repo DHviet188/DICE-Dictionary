@@ -1,0 +1,61 @@
+.exit:hover {
+    -fx-background-color: #ff3547;
+}
+
+.nav-form {
+    -fx-background-color: linear-gradient(to bottom right, #272b3f, #256b52);
+}
+
+.nav-btn {
+    -fx-background-color: transparent;
+}
+
+.nav-btn:hover {
+    -fx-cursor: hand;
+}
+
+.btn:hover {
+    -fx-cursor: hand;
+}
+
+.signout-btn {
+    -fx-background-color: #219a6b;
+}
+
+.signout-btn:hover {
+    -fx-cursor: hand;
+    -fx-background-color: #219a4b;
+}
+
+.top {
+    -fx-background-color: linear-gradient(to bottom right, #272b3f, #256b52);
+    -fx-background-radius: 5px;
+}
+
+.white-bg{
+    -fx-background-color: #fff;
+    -fx-background-radius: 5px;
+}
+
+.shadow {
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.5), 6,0,0,0);
+}
+
+.search-searchBtn:hover {
+    -fx-cursor: hand;
+}
+
+.table-view{
+    -fx-background-color:transparent;
+    -fx-border-color:linear-gradient(to bottom right, #272b3f, #256b51);
+    -fx-border-radius:8px;
+    -fx-padding:0px;
+}
+.table-view .table-column{
+    -fx-alignment:CENTER;
+}
+.table-view .column-header-background{
+    -fx-background-color:linear-gradient(to bottom right, #272b3f, #256b51);
+    -fx-background-insets: 0 0 0 0;
+    -f-background-radius:8px 8px 0px 0px;
+}

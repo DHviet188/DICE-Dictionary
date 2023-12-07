@@ -1,0 +1,10 @@
+.transparent-button {
+    -fx-background-color: transparent;
+    -fx-padding: 0.416667em 0.833em 0.416667em 0.833em; /* Padding này chỉ để hiển thị hình ảnh */
+    -fx-background-insets: 0;
+    -fx-background-radius: 0;
+}
+
+.transparent-button:hover {
+    -fx-background-color: transparent;
+}

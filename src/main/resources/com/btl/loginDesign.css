@@ -1,0 +1,16 @@
+.left {
+    -fx-background-color: linear-gradient(to bottom right, #272b3f, #256b52);
+}
+
+.exit:hover {
+    -fx-background-color: #ff3547;
+}
+
+.btn {
+    -fx-background-color: linear-gradient(to bottom right, #278f96, #2d545f);
+}
+
+.btn:hover {
+    -fx-background-color: linear-gradient(to bottom right, #21a7ae, #368981);
+    -fx-cursor: hand;
+}
